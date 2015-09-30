@@ -1,0 +1,86 @@
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<style>
+		#text{
+			width: 250px;
+			height: 47px;
+    		padding-top: 20px;
+		}
+
+		#equacao {
+			display: block;
+			position: absolute;
+		}
+
+		#m {
+			position: absolute;
+			left: 230px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="panel panel-primary">
+
+		<div id="display">
+			<span id='equacao'></span>
+			<span id="m" class="pull-right"></span>
+			<input id="text" type="text" value="0">
+		</div>
+			<table>
+				<tr>
+					<th><button id="mc" type="button" class="btn btn-primary btn-block">MC</button></th>
+					<th><button id="mr" type="button" class="btn btn-primary btn-block">MR</button></th>
+					<th><button id="ms" type="button" class="btn btn-primary btn-block">MS</button></th>
+					<th><button id="mmais" type="button" class="btn btn-primary btn-block">M+</button></th>
+					<th><button id="mmenos" type="button" class="btn btn-primary btn-block">M-</button></th>
+				</tr>
+				<tr>
+					<th><button id="back" type="button"  class="btn btn-default btn-block"><-</button></th>
+					<th><button id="ce" type="button" class="btn btn-default btn-block">CE</button></th>
+					<th><button id="c" type="button" class="btn btn-default btn-block">C</button></th>
+					<th><button id="maismenos" type="button" class="btn btn-default btn-block">+/-</button></th>
+					<th><button id="raiz" type="button" class="btn btn-default btn-block">raiz</button></th>
+				</tr>
+				<tr>
+					<th><button id="7" type="button" class="btn btn-default btn-block">7</button></th>
+					<th><button id="8" type="button" class="btn btn-default btn-block">8</button></th>
+					<th><button id="9" type="button" class="btn btn-default btn-block">9</button></th>
+					<th><button id="div" type="button" class="btn btn-default btn-block">/</button></th>
+					<th><button id="porc" type="button" class="btn btn-default btn-block">%</button></th>
+				</tr>
+				<tr>
+					<th><button id="4" type="button" class="btn btn-default btn-block">4</button></th>
+					<th><button id="5" type="button" class="btn btn-default btn-block">5</button></th>
+					<th><button id="6" type="button" class="btn btn-default btn-block">6</button></th>
+					<th><button id="vezes" type="button" class="btn btn-default btn-block">*</button></th>
+					<th><button id="1/x" type="button" class="btn btn-default btn-block">1/x</button></th>
+				</tr>
+				<tr>
+					<th><button id="1" type="button" class="btn btn-default btn-block">1</button></th>
+					<th><button id="2" type="button" class="btn btn-default btn-block">2</button></th>
+					<th><button id="3" type="button" class="btn btn-default btn-block">3</button></th>
+					<th><button id="menos" type="button" class="btn btn-default btn-block">-</button></th>
+					<th><button id="igual" type="button" class="btn btn-default btn-block">=</button></th>
+				</tr>
+				<tr>
+					<th><button id="0" type="button" class="btn btn-default btn-block">0</button></th>
+					<th><button id="virg" type="button" class="btn btn-default btn-block">,</button></th>
+					<th><button id="mais" type="button" class="btn btn-default btn-block">+</button></th>
+				</tr>
+			</table>
+		</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<script type="text/javascript" src="script.js"></script>
+
+
+</body>
+
+</html>
